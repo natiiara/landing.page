@@ -1,0 +1,139 @@
+/* Write some CSS below */
+
+.body{
+	
+}
+.banner {
+	background-image: url(images/banner3.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 60px 0;
+	text-align:center;
+}
+
+#titulo {
+	font-family: 'Aclonica', sans-serif;
+	color: white;
+	font-size: 80px;
+	margin-top: 180px;
+	text-shadow: 0px 5px 5px black;
+
+}
+
+.btnpink { 
+ background-color: #dea1b6;
+    color: white;
+    text-shadow: 0px 1px 1px black;
+    padding: 16px 48px;
+    border-radius: 10px;
+    border: 1px solid white;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif; }
+
+h2, .h3 {
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+	text-decoration: none;
+	color: black;
+}
+
+
+.img1{ border-radius: 30px;
+}
+.img2{ border-radius: 30px
+}
+.img3{ border-radius: 30px
+}
+
+
+p {
+ font-size: 20px;
+ text-align: center;
+ font-family: 'Ubuntu', sans-serif;
+
+
+}
+.p1 {
+	color: white;
+	font-size: 40px;
+	text-shadow: 0px 1px 1px black;
+	font-family: 'Indie Flower', cursive;
+}
+
+.contenido {
+	margin: 200px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 20px;
+}
+.cards{
+	 display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . .";
+ 
+  }
+
+.prodct1 {
+	background: white;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 8px;
+    flex-grow: 3;
+    border: 10px solid white;
+    text-align: center;
+	
+}
+
+.prodct2 {
+	background: white;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 8px;
+    flex-grow: 3;
+    border: 10px solid white;
+    text-align: center;
+}
+.prodct3 {
+	background: white;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 8px;
+    flex-grow: 3;
+    border: 10px solid white;
+    text-align: center;
+}
+
+.footer{
+	background: #755245e0;
+    color: white;
+    padding: 8px 0px;
+}
+
+.contenido1 {
+	color: white;
+	text-shadow: 0px 1px 1px black;
+	margin: 200px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 20px;
+	
+}
+h4{
+	text-align: left; 
+	font-size: 25px; 
+	font-family: 'Lato', sans-serif;}
+
+.social {
+	text-align: center;
+	margin-top: 20px; 
+}
